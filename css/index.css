@@ -110,7 +110,8 @@ body {
 
 * {
 	box-sizing: border-box;
-	border: 1px solid grey;
+	/* Enable bottom part for testing */
+	/* border: 1px solid grey; */
 }
 
 html,
@@ -272,14 +273,13 @@ footer nav {
 }
 
 footer nav a {
-	color: white;
+	color: #c1c1c1;
 	text-decoration: none;
 }
 
 /* About Styles */
 
 .top-about-content {
-	margin-bottom: 2rem;
 	border-bottom: 1px dashed black;
 	padding-left: 1rem;
 }
@@ -297,6 +297,36 @@ footer nav a {
 
 .row div {
 	border-bottom: 1px dashed black;
+	margin: 1rem;
 }
 
-/* End of About Styles */
+.row h3 {
+	margin-top: 1rem;
+}
+
+.row a {
+	text-decoration: none;
+	color: black;
+}
+
+.row button {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: white;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+.row button a {
+	width: 100%;
+}
+
+.bot {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	padding-left: 1rem;
+}
