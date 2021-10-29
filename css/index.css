@@ -275,3 +275,17 @@ footer nav a {
 	color: white;
 	text-decoration: none;
 }
+
+/* About Styles */
+
+.top-about-content {
+	margin-bottom: 2rem;
+	border-bottom: 1px dashed black;
+	padding-left: 1rem;
+}
+
+.top-about-content p {
+	margin-bottom: 1rem;
+}
+
+/* End of About Styles */
