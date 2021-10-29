@@ -288,4 +288,15 @@ footer nav a {
 	margin-bottom: 1rem;
 }
 
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 1%;
+}
+
+.row div {
+	border-bottom: 1px dashed black;
+}
+
 /* End of About Styles */
